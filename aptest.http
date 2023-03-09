@@ -1,0 +1,55 @@
+Get http://localhost:4000/health
+
+###
+
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name":"Nafis iqbal",
+    "country":"bd",
+    "position":"Batsman",
+    "blod Group":"AB+",
+    "rank":75
+}
+
+###
+GET http://localhost:4000
+
+###
+GET http://localhost:4000/JlcOJXZkw
+
+###
+GET http://localhost:4000/nMjLcBtJX
+
+
+###
+GET http://localhost:4000/Jj7AqPrwus
+
+###
+
+
+PATCH http://localhost:4000/nMjLcBtJX
+Content-Type: application/json
+
+{
+    "rank":"7"
+    
+}
+
+###
+PUT http://localhost:4000/aOAZqGHS0
+Content-Type: application/json
+
+{
+    "name":"Nafis Iqbal",
+    "country":"BD",
+    "position":"Batsman",
+    "Blood Group":"AB+",
+    "Sex":"Male"
+
+}
+
+###
+DELETE http://localhost:4000/5rMz2TGGb
